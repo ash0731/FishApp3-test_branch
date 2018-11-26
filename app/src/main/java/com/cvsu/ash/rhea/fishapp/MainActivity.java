@@ -1,8 +1,11 @@
 package com.cvsu.ash.rhea.fishapp;
 
+import android.Manifest;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -27,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         mDrawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
     @Override

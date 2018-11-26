@@ -49,7 +49,7 @@ public class LearnActivity extends AppCompatActivity {
 
     }
     public void onBtnClicked(){
-        Intent intent = new Intent("android.intent.action.SpeciesActivity");
+        Intent intent = new Intent(this, SpeciesActivity.class);
         startActivity(intent);
 
     }
