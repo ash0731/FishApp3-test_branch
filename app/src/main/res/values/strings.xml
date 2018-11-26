@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FishApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="fishname">Fish Species</string>
+    <string name="descript">Common Name: Milkfish \n
+Local name: Bangus, Awa \n
+Max Size: 180cm (Commonly 60-100cm) \n
+Biodiversity: Marine, Brackish, Freshwater, Benthopelagic, Endemic \n
+Fishing Season:  All Year Long
+</string>
+
+    <string name="feeds">
+        In these tables are the categories and list of tilapia feeds and its given nutrients.
+    </string>
+    <string name="rules"><center><b>Republic of the Philippines\n
+        Congress of the Philippines</b>\n Metro Manila</center>\n \n
+        <b><center>Tenth Congress</center>\n Republic Act No. 8550                      February 25, 1998</b></string>
+</resources>

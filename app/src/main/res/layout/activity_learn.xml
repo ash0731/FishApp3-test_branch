@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cvsu.ash.rhea.fishapp.LearnActivity">
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#039BE5"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="Species" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#0288D1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="Fish feeds" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#0277BD"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="History of Aquaculture" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:textColor="@android:color/white"
+
+        android:layout_height="match_parent"
+        android:textSize="24sp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#0288D1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+            android:textSize="16sp"
+        android:text="Tools and equipments" />
+
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#0277BD"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="culturing methods" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#01579B"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="Aquaculture rules and ethics"
+            />
+    </LinearLayout>
+</LinearLayout>
