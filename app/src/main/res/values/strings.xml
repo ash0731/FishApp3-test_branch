@@ -17,4 +17,5 @@ Fishing Season:  All Year Long
     <string name="rules"><center><b>Republic of the Philippines\n
         Congress of the Philippines</b>\n Metro Manila</center>\n \n
         <b><center>Tenth Congress</center>\n Republic Act No. 8550                      February 25, 1998</b></string>
+    <string name="locator_features_unavailable" >This device does not provide location services. Some features are unavailable.</string>
 </resources>
