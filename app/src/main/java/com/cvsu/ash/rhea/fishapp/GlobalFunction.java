@@ -1,6 +1,8 @@
 package com.cvsu.ash.rhea.fishapp;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Build;
 import android.provider.Settings;
 import android.text.TextUtils;
@@ -18,4 +20,22 @@ public class GlobalFunction {
             return !TextUtils.isEmpty(locationProviders);
         }
     }
+
+    public void showDialog(Context context, String title, String message) {
+
+        AlertDialog.Builder dialog = new AlertDialog.Builder(context);
+
+        dialog.setTitle(title);
+        dialog.setMessage(message);
+        dialog.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+        dialog.setCancelable(false);
+        dialog.show();
+    }
 }
+
+

@@ -19,8 +19,8 @@ Biodiversity: Marine, Brackish, Freshwater, Benthopelagic, Endemic \n
     <string name="descript2">
        \n \n Milkfish (Chanos chanos) is the only species in the Family Chanidae. Its distribution is restricted to either low latitude tropics or the subtropical northern hemisphere along continental shelves and around islands, where temperatures are greater than 20 °C (Red Sea and South Africa to Hawaii and the Marquesas, north to Japan and south to Victoria, Australia; and in the Eastern Pacific from San Pedro, California to the Galapagos).
     </string>
-<string name="tigerdesc">Penaeus monodon mature and breed only in tropical marine habitats and spend their larval, juvenile, adolescent and sub-adult stages in coastal estuaries, lagoons or mangrove areas. In the wild, they show marked nocturnal activity, burrowing into bottom substratum during the day and emerging at night to search for food as benthic feeders. Under natural conditions, the giant tiger prawn is more of a predator than an omnivorous scavenger or detritus feeder than other penaeid shrimp. After molting, the new shell is still soft which causes prawns to become vulnerable and they may subsequently be eaten by their predators or companions. Adults are often found over muddy sand or sandy bottoms at 20-50 m depth in offshore waters.</string>
-    
+    <string name="tigerdesc">Penaeus monodon mature and breed only in tropical marine habitats and spend their larval, juvenile, adolescent and sub-adult stages in coastal estuaries, lagoons or mangrove areas. In the wild, they show marked nocturnal activity, burrowing into bottom substratum during the day and emerging at night to search for food as benthic feeders. Under natural conditions, the giant tiger prawn is more of a predator than an omnivorous scavenger or detritus feeder than other penaeid shrimp. After molting, the new shell is still soft which causes prawns to become vulnerable and they may subsequently be eaten by their predators or companions. Adults are often found over muddy sand or sandy bottoms at 20-50 m depth in offshore waters.</string>
+
     <string name="tilapiadesc"><b>Common Name: Tilapia \n
 Local Name: Pla-pla (Tagalog), Tilapia (Cebuano)\n
 Max Size:  60 cm \n
@@ -130,4 +130,5 @@ Paddle wheels set in the ponds can remedy critical oxygen condition. These devic
         Congress of the Philippines</b>\n Metro Manila</center>\n \n
         <b><center>Tenth Congress</center>\n Republic Act No. 8550                      February 25, 1998</b></string>
     <string name="locator_features_unavailable">This device does not provide location services. Some features are unavailable.</string>
+    <string name="newline" />
 </resources>
