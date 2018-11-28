@@ -5,6 +5,8 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -62,13 +64,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         if(mToggle.onOptionsItemSelected(item)){
             return true;
         }
         return super.onOptionsItemSelected(item);
+
     }
+
 
     public void Learn(View view) {
                 Intent i = new Intent(this, LearnActivity.class);

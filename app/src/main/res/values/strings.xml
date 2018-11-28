@@ -4,18 +4,130 @@
     <string name="close">Close</string>
     <string name="title_activity_maps">Map</string>
     <string name="fishname">Fish Species</string>
-    <string name="descript">Common Name: Milkfish \n
+    <string name="about">‘FishFarms in Cavite’ is an application which helps inform the user about aquaculture and track suitable local fish farm spots in Cavite. \n \n
+Here’s what you can do with ‘FishFarms in Cavite’ Application: \n \n
+• Learn about aquaculture: Common Species, Tools and Equipments, Fish Feeds, Culturing Methods, History of Aquaculture, Aquaculture Rules and Ethics. \n \n
+•Find Local fish farms in Cavite (To protect fish farm owners’ privacy, each places in the map is an approximation.) \n \n
+•Get information about Local fish farms in Cavite. \n
+</string>
+    <string name="descript"><b>Common Name: Milkfish \n
 Local name: Bangus, Awa \n
 Max Size: 180cm (Commonly 60-100cm) \n
 Biodiversity: Marine, Brackish, Freshwater, Benthopelagic, Endemic \n
-Fishing Season:  All Year Long
+        Fishing Season:  All Year Long</b>
 </string>
-
-    <string name="feeds">
-        In these tables are the categories and list of tilapia feeds and its given nutrients.
+    <string name="descript2">
+       \n \n Milkfish (Chanos chanos) is the only species in the Family Chanidae. Its distribution is restricted to either low latitude tropics or the subtropical northern hemisphere along continental shelves and around islands, where temperatures are greater than 20 °C (Red Sea and South Africa to Hawaii and the Marquesas, north to Japan and south to Victoria, Australia; and in the Eastern Pacific from San Pedro, California to the Galapagos).
     </string>
+<string name="tigerdesc">Penaeus monodon mature and breed only in tropical marine habitats and spend their larval, juvenile, adolescent and sub-adult stages in coastal estuaries, lagoons or mangrove areas. In the wild, they show marked nocturnal activity, burrowing into bottom substratum during the day and emerging at night to search for food as benthic feeders. Under natural conditions, the giant tiger prawn is more of a predator than an omnivorous scavenger or detritus feeder than other penaeid shrimp. After molting, the new shell is still soft which causes prawns to become vulnerable and they may subsequently be eaten by their predators or companions. Adults are often found over muddy sand or sandy bottoms at 20-50 m depth in offshore waters.</string>
+    
+    <string name="tilapiadesc"><b>Common Name: Tilapia \n
+Local Name: Pla-pla (Tagalog), Tilapia (Cebuano)\n
+Max Size:  60 cm \n
+Biodiversity: Marine, Brackish, Freshwater \n
+Depth: 0 – 6 meters \n
+        Fishing Season:  All Year Long</b>
+        </string>
+    <string name="tilapiadesc2">\n Nile tilapia is a tropical species that prefers to live in shallow water. The lower and upper lethal temperatures for Nile tilapia are 11-12 °C and 42 °C, respectively, while the preferred temperature ranges from 31 to 36 °C. It is an omnivorous grazer that feeds on phytoplankton, periphyton, aquatic plants, small invertebrates, benthic fauna, detritus and bacterial films associated with detritus. Nile tilapia can filter feed by entrapping suspended particles, including phytoplankton and bacteria, on mucous in the buccal cavity, although its main source of nutrition is obtained by surface grazing on periphyton mats. </string>
+
+    <string name="greenmusseldesc">The asian green mussel (Perna viridis), also known as the Philippine green mussel, is a bivalve belonging to the family Mytilidae. The mussel is economically important in several countries where it is harvested for food; however it is known to harbor toxins, which are hazardous to human health and cause damage to submerged structures such as drainage pipes. It is native in the Asia-Pacific region and was introduced in the waters of Australia, the Caribbean, Japan, North America, and South America as invasive species via boat hulls and water ballasts. \n \n
+Typically lives up to 10 m depth and forms dense populations (up to 35000 individuals per square metre) on a variety of structures including vessels, wharves, mariculture equipment, buoys and other hard substrata. This species is an efficient filter feeder, feeding on small zooplankton, phytoplankton and other suspended fine organism material.
+</string>
+    <string name="mudcrabdesc">The mud crab or mangrove crab, like the penaeid shrimp is also one of the species that may be harvested together with milkfish in brackish water ponds. However its culture as a crop in itself is fairly recent and probably dates back only to the 1960s. This was when bamboo fencing were used around a brackish water pond to prevent them from crawling out. Culture density is typically low (20,000 per ha or lower). Previously known only as Scylla serrata, four distinct species are now recognized but their nomenclature is still not quite settled.
+\n \n Feed used ranges from dead chickens from poultry houses to “trash fish” from capture fisheries or from brackish water ponds such as naturally occurring tilapia which is considered a pond pest. There is no trash fish as such in the Philippines since almost all species, big or small, are utilized as direct human food. </string>
+    <string name="feeds">
+        In these tables are the categories and list of fish feeds and its given nutrients.
+    </string>
+
+    <string name="tools1a">
+\n Most of the maintenance and repair works in fish farms are devoted to dikes. Practically, the same implements in manual construction work are also
+        being used in making repairs of dikes. Digging tools, flatboats, wooden dugouts and rafts are most appropriate for work like digging out trenches
+        and backfilling them with puddled soil to repair leakage/seepage, and for deepening canals and other similar jobs.
+        \n \n
+        Maintenance of digging tools is easily done by cleaning and rubbing with oil or grease to prevent them from rusting. Boats should be protected against
+        the sun by putting them under the shed. Dugout boats, when not used, may also be filled with water to prevent the walls from cracking when exposed
+        under the sun. \n \n
+    </string>
+    <string name="tools1b">
+        \n
+        Practical and simple equipment have also been devised for levelling fishpond bottoms. The simple manual mud rake is a good example,
+        while in Indonesia, a levelling board manned by four or more men is also used.
+        \n \n
+    </string>
+    <string name="tools1c">
+        \n
+        For manual removal of silt in fishpond bottoms or canals, a simple metallic or wooden shovel has been devised and used in Thailand and Indonesia. If the area to be desilted is extensive, a type of silt or sludge pump can be used.
+        This can be a small unit so that it can be portable and can be transferred to the various areas of the pond system.
+        \n \n
+    </string>
+
+    <string name="tools2a">
+        \n
+        The industry has designed various types of nets for use in fishpond operations. The fingerling seine, which is used for catching milkfish
+        fingerlings and shrimps juveniles, is a fine-meshed rectangular net, about two to four meters long by one meter wide. It is supported by
+        two poles at both ends with floats of wood, rubber or synthetic material on the upper side and sinkers of lead on the opposite side. \n \n
+    </string>
+    <string name="tools2b">\n A fingerling suspension net is usually a standard equipment in brackishwater fish farms.
+        This is a rectangular or square net 2 to 3 meters wide by 3 to 5 meters long. Double line of coarse twine line the margins,
+        the net has meshes of 0.5 to 1.0 cm square mesh. It is used to hold fingerlings during counting or before transport. \n \n</string>
+    <string name="tools2c">\n
+    This is a harvesting net of about 1.5 to 2.0 m wide by 30 to 50 m long.
+    It should have a float line at one of the long sides and lead line on the opposite side.
+    It is made of coarse thread of nylon with mesh of 4 to 5 cm square mesh. To catch fish,
+    this seine is dragged over the pond from one end to the other. The fish are gilled on the net but some jump
+    over while small ones pass through the net meshes so that this net is usually used for partial harvesting. \n \n
+</string>
+    <string name="tools2d">
+        \n Fine-meshed nylon or Manila hemp cloths are used as screens on frames on gates.
+        These screens are usually framed with the wooden frame set on the gates to reinforce the bamboo screens on the frame. \n \n
+        For pipes, a fitting bamboo screen basket is used for milkfish nurseries in the Philippines
+        During the early stages of fry rearing, this is further coated with nylon mesh or Manila hemp cloth. Sometimes,
+        only a fine-meshed net bag is tied to the water control pipe to screen-off unwanted organisms. \n \n
+    </string>
+    <string name="tools2e"> \n
+        Bagnets so constructed so that their openings could fit the wooden frame for screens on gates are made for use in harvesting.
+        These are installed on the frames during low tides when water is drained from the ponds which were previously fully flooded during
+        the previous high tide. With the force of the current, the stocks of shrimp from the ponds are led into the bagnet where they are
+        collected. These harvesting bags for shrimp are used in the shrimp trapping ponds in Malaysia and in milkfish/shrimp polyculture
+        ponds in the Philippines. \n \n
+    </string>
+    <string name="tools2f">
+        \n The net is a versatile net for fishermen as well as for fish farmers for small-scale
+        individual catching or sampling. In fish farm, this net can be used for sampling stock of fish or
+        shrimp to monitor growth or for partial harvesting when required. \n \n
+    </string>
+    <string name="tools2g"> \n
+        Bamboo screen traps have been devised for partial harvesting in coastal fishponds, especially for penaeid shrimps.
+        In Indonesia, the shrimp fyke (bubu udang) is widely used. This consists of a fabricated catching fyke and an antechamber
+        and a leader of bamboo screen set perpendicular to the pond dike. Series of the shrimp fykes may be set in the pond during harvest.
+        In the Philippines, a similar trap is used but the catching end is formed in place rather than a pre-devised catching fyke. \n \n
+    </string>
+    <string name="tools3a">
+        \n Portable water pump is usually used to effect water movement whenever needed in the pond system. This is often necessary when water circulation is needed and the tide condition is not conducive for this operation such as in alleviating stagnation or lack of oxygen.
+        \n \n
+Paddle wheels set in the ponds can remedy critical oxygen condition. These devices can be powered by electricity or by small portable engines. Better aeration of the pond water may also be accomplished through the gates with the use of the closure slabs.
+ \n \n
+    </string>
+    <string name="tools3b">
+        \n Water and soil analysis kits are now available in the market. For coastal fish farms a set that could monitor dissolved oxygen, salinity, pH, are most essential. Additional useful observations involve nutrient-content (N-P-K), depth of visibility (turbidity), etc. Simple visibility observations can be done using the Secchi disc. Direct salinity readings using refractometers is easy to do but the equipment is quite expensive. Improvised hydrometers may be used after standardizing them with a salinometer (hydrometer) or refractometer.
+
+\n \n
+    </string>
+    <string name="tools4a">
+   \n Chilling chamber or box has become a standard facility in coastal fish farms. These are made of concrete, wood or galvanized iron
+    sheets forming shallow tanks, square or rectangular in form scarcely 0.5 m deep set within the fishpond premises. It may be 2 to 3 m wide by 3 to 5 m long by 0.4 m deep. During harvest, this is filled with clean water and some crushed ice. The harvested fish or shrimp are placed in this box to wash and chill before packing them for the market.
+\n \n </string>
+    <string name="tools4b">
+    \n Fertilizer platforms, where the sacks of inorganic fertilizers are placed so that the nutrient substances dissolve slowly into
+    the water instead of chemically reacting with pond soil are useful facilities of the fish farm. \n \n
+</string>
+    <string name="tools4c">
+       \n There are a number of devices designed to exclude predators and pests. The crab hook is used to catch mangrove crabs that may have made burrows into the fishpond dike. Eel hooks are used on moist pond bottoms to catch the mud eels that may persist to stay in the pond bottom after harvest. For predatory birds, various scaring devices are used. Lines of white twines are usually set over milkfish nurseries. Scarecrows may be set or other scares such as those using mirrors noise scares, moving scares, etc. A trap has also been devised for the mound-forming mud lobster, Thallasina anomala. \n \n
+    </string>
+
+
     <string name="rules"><center><b>Republic of the Philippines\n
         Congress of the Philippines</b>\n Metro Manila</center>\n \n
         <b><center>Tenth Congress</center>\n Republic Act No. 8550                      February 25, 1998</b></string>
-    <string name="locator_features_unavailable" >This device does not provide location services. Some features are unavailable.</string>
+    <string name="locator_features_unavailable">This device does not provide location services. Some features are unavailable.</string>
 </resources>

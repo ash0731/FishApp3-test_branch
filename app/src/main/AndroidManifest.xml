@@ -3,9 +3,9 @@
     package="com.cvsu.ash.rhea.fishapp">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -13,7 +13,7 @@
         android:layout_gravity="center_horizontal"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="FishFarms Cavite"
+        android:label="FishFarms in Cavite"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -26,7 +26,7 @@
         </activity>
         <activity
             android:name=".LearnActivity"
-            android:label="Discover"
+            android:label="Discover Aquaculture"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".About"
@@ -49,6 +49,7 @@
             android:label="@string/title_activity_maps" />
         <activity
             android:name=".SpeciesActivity"
+            android:label="Common Species"
             android:parentActivityName=".LearnActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SpeciesActivity" />
@@ -56,9 +57,19 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".milkfish" />
+        <activity
+            android:name=".milkfish"
+            android:label="Common Species"
+            android:parentActivityName=".SpeciesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.milkfish" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".RulesActivity"
+            android:label="Rules and Regulations"
             android:parentActivityName=".LearnActivity">
             <intent-filter>
                 <action android:name="android.intent.action.RulesActivity" />
@@ -66,11 +77,97 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".FeedsActivity" android:label="Feeds" android:parentActivityName=".LearnActivity">
-           <intent-filter> <action android:name="android.intent.action.FeedsActivity" />
+        <activity
+            android:name=".FeedsActivity"
+            android:label="Feeds"
+            android:parentActivityName=".LearnActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.FeedsActivity" />
 
-            <category android:name="android.intent.category.DEFAULT" /></intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".ToolsActivity"
+            android:label="Tools and Equipments"
+            android:parentActivityName=".LearnActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ToolsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tool1Activity"
+            android:label="Equipment for Maintenance and Repairs"
+            android:parentActivityName=".ToolsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.Tool1Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tilapia"
+            android:label="Common Species"
+            android:parentActivityName=".SpeciesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.tilapia" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tool2Activity"
+            android:label="Nets and Traps"
+            android:parentActivityName=".ToolsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.Tool2Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tool3Activity"
+            android:label="Monitoring and Maintenance of Water Quality"
+            android:parentActivityName=".ToolsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.Tool3Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tool4Activity"
+            android:label="Other Tools"
+            android:parentActivityName=".ToolsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.Tool4Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mudcrab"
+            android:label="Common Species"
+            android:parentActivityName=".SpeciesActivity"><intent-filter>
+        <action android:name="android.intent.action.mudcrab" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+    </intent-filter></activity>
+        <activity android:name=".tigerprawn"
+            android:label="Common Species"
+            android:parentActivityName=".SpeciesActivity"><intent-filter>
+            <action android:name="android.intent.action.tigerprawn" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter></activity>
+        <activity android:name=".greenmussel"
+            android:label="Common Species"
+            android:parentActivityName=".SpeciesActivity"><intent-filter>
+            <action android:name="android.intent.action.greenmussel" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter></activity>
     </application>
 
 </manifest>

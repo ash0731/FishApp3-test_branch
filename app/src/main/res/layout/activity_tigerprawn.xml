@@ -4,27 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".milkfish"
+    tools:context=".tigerprawn"
     android:orientation="vertical">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="16dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        android:layout_height="wrap_content">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
     <TextView
         android:id="@+id/listdata"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:text="Milkfish (Bangus)"
+        android:text="Tiger Prawn (Sugpo)"
         android:textColor="#000"
         android:textSize="30sp" />
 
@@ -35,27 +32,17 @@
         android:layout_below="@+id/listdata"
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/fishname"
-        android:src="@drawable/milkfish" />
+        android:src="@drawable/tiger_prawn" />
 
     <TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/descript"
-        android:textStyle="bold"
+        android:text="@string/tigerdesc"
         android:textColor="#A9A9A9"
-        android:textSize="18sp"
-        />
-        <TextView
-            android:id="@+id/description2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="@string/descript2"
-            android:textColor="#A9A9A9"
-            android:textSize="18sp"
-            />
+        android:textSize="18sp" />
         </LinearLayout>
+
     </ScrollView>
 </RelativeLayout>
