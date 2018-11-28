@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RulesActivity">
+    tools:context=".CMethodActivity">
+
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,13 +29,13 @@
                 android:layout_margin="5dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:text="Basic Legislation" />
+                android:text="Cage System" />
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rules" />
+                android:text="@string/method1" />
 
             <TextView
                 android:id="@+id/textViews"
@@ -43,13 +45,13 @@
                 android:layout_margin="5dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:text="Legal Definition" />
+                android:text="Irrigation Ditch or Pond Systems" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rules2" />
+                android:text="@string/method2" />
 
 
             <TextView
@@ -60,13 +62,13 @@
                 android:layout_margin="5dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:text="Guidelines and Codes of Conduct" />
+                android:text="Composite Fish Culture" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rules3" />
+                android:text="@string/method3" />
 
 
             <TextView
@@ -77,13 +79,29 @@
                 android:layout_margin="5dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:text="International Arrangements" />
+                android:text="Integrated Recycling Systems" />
 
             <TextView
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rules4"/>
+                android:text="@string/method4" />
+
+            <TextView
+                android:id="@+id/textViews3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Classic Fry Farming" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/method5" />
 
 
 

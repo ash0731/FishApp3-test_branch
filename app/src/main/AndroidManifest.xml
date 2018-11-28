@@ -178,7 +178,26 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".MarkerInfo"></activity>
+        <activity
+            android:name=".MarkerInfo"
+            android:parentActivityName=".MapsActivity" />
+        <activity
+            android:name=".HistoryActivity"
+            android:label="History"
+            android:parentActivityName=".LearnActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.HistoryActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CMethodActivity"
+            android:label="Culturing Methods"
+            android:parentActivityName=".LearnActivity"><intent-filter>
+            <action android:name="android.intent.action.CMethodActivity" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter></activity>
     </application>
 
 </manifest>

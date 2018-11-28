@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:text="CUBAO"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#000"
@@ -151,11 +151,12 @@
         android:orientation="horizontal"
         android:layout_gravity="center">
 
-        <Button
+       <Button
             android:id="@+id/btn_setPin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pin direction to map"/>
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Pin direction to map"
+            android:visibility="invisible"/>
 
     </LinearLayout>
 
