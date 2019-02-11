@@ -31,7 +31,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
                 android:scaleType="fitXY"
-                android:layout_below="@+id/listdata"
                 android:layout_centerHorizontal="true"
                 android:contentDescription="@string/fishname"
                 android:src="@drawable/mudcrab2" />

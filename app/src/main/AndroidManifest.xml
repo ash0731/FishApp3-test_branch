@@ -180,6 +180,7 @@
         </activity>
         <activity
             android:name=".MarkerInfo"
+            android:label = "Fishfarm Information"
             android:parentActivityName=".MapsActivity" />
         <activity
             android:name=".HistoryActivity"
