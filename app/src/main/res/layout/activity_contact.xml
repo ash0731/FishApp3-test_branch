@@ -39,6 +39,32 @@
                 />
 
             <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_margin="2dp"
+                android:layout_marginTop="85dp"
+                android:text="Address:"
+
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="2dp"
+                android:layout_marginTop="85dp"
+                android:text="CvSU Naic Compound, Bucana, Naic, Cavite"
+
+                />
+
+
+            <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -46,7 +72,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_margin="2dp"
                 android:layout_marginTop="85dp"
-                android:text="Email:"
+                android:text="\nEmail:"
 
                 android:textStyle="bold"
                 android:textSize="17dp"
@@ -87,7 +113,7 @@
                 android:layout_margin="2dp"
                 android:layout_marginTop="85dp"
                 android:autoLink="web"
-                android:text="m.me/PFOCavite"/>
+                android:text="m.me/PFOCavite \n\n"/>
 
             <ImageView
                 android:id="@+id/imageView6"
