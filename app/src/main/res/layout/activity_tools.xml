@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#0277BD"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ToolsActivity"
@@ -10,7 +11,7 @@
     <Button
         android:id="@+id/button1"
         android:textColor="@android:color/white"
-        android:backgroundTint="#039BE5"
+        android:backgroundTint="#0277BD"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="5dp"
@@ -19,13 +20,14 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="16sp"
+        android:drawableLeft="@drawable/maintainance"
         android:text="EQUIPMENT FOR MAINTENANCE AND Repairs" />
 
     <Button
         android:id="@+id/button2"
         android:layout_marginTop="5dp"
         android:textColor="@android:color/white"
-        android:backgroundTint="#039BE5"
+        android:backgroundTint="#0277BD"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="10dp"
@@ -33,13 +35,14 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="16sp"
+        android:drawableLeft="@drawable/trap"
         android:text="NETS AND TRAPS" />
 
     <Button
         android:id="@+id/button3"
         android:layout_marginTop="5dp"
         android:textColor="@android:color/white"
-        android:backgroundTint="#0288D1"
+        android:backgroundTint="#0277BD"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="10dp"
@@ -47,6 +50,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="16sp"
+        android:drawableLeft="@drawable/monitor"
         android:text="EQUIPMENT FOR MONITORING AND MAINTENANCE OF WATER QUALITY"/>
 
     <Button
@@ -61,6 +65,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="16sp"
+        android:drawableLeft="@drawable/others"
         android:text="Other Tools"/>
 
 

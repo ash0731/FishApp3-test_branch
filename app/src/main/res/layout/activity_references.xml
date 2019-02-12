@@ -2,10 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cvsu.ash.rhea.fishapp.About">
+    tools:context=".References">
 
     <ScrollView
         android:layout_width="395dp"
@@ -33,7 +32,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_margin="10dp"
                 android:layout_marginTop="85dp"
-                android:text="ABOUT THE APPLICATION"
+                android:text="REFERENCES"
                 android:layout_gravity="center"
                 android:textStyle="bold"
                 android:textSize="19dp"
@@ -47,7 +46,10 @@
                 android:layout_centerHorizontal="true"
                 android:layout_margin="2dp"
                 android:layout_marginTop="85dp"
-                android:text="@string/about"
+                android:text="(Information/Data)"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
                 />
 
             <TextView
@@ -56,12 +58,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_margin="10dp"
-                android:layout_marginTop="100dp"
-                android:text="ABOUT THE DEVELOPERS"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textSize="19dp"
+                android:layout_margin="2dp"
+                android:layout_marginTop="85dp"
+                android:text="BFAR 4A - Provincial Fisheries Office Cavite (PFO-Cavite) \nFood and Agriculture Organization (FAO)"
+
                 />
 
             <TextView
@@ -71,8 +71,22 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_margin="2dp"
+                android:layout_marginTop="5dp"
+                android:text="(Images/Videos)"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="2dp"
                 android:layout_marginTop="85dp"
-                android:text="@string/aboutus" />
+                android:text="In assistance with Provincial Fisheries Office in Cavite (PFO - Cavite) \n \nFood and Agriculture Organization Website. \n http://www.fao.org" />
 
         </LinearLayout>
     </ScrollView>

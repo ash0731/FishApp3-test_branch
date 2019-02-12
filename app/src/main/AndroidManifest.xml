@@ -18,6 +18,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".contact"
+            android:label="Contact Information"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".References"
+            android:label="References"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +37,8 @@
         <activity
             android:name=".LearnActivity"
             android:label="Discover Aquaculture"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".About"
             android:label="About"
@@ -180,7 +190,7 @@
         </activity>
         <activity
             android:name=".MarkerInfo"
-            android:label = "Fishfarm Information"
+            android:label="Fishfarm Information"
             android:parentActivityName=".MapsActivity" />
         <activity
             android:name=".HistoryActivity"
@@ -192,13 +202,16 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".CMethodActivity"
+        <activity
+            android:name=".CMethodActivity"
             android:label="Culturing Methods"
-            android:parentActivityName=".LearnActivity"><intent-filter>
-            <action android:name="android.intent.action.CMethodActivity" />
+            android:parentActivityName=".LearnActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CMethodActivity" />
 
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

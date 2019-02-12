@@ -139,6 +139,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             Intent i = new Intent(this, About.class);
             startActivity(i);
         } else if (id == R.id.nav_account2) {
+            Intent i = new Intent(this, References.class);
+            startActivity(i);
+            //Dito yung feedbackactivity
+
+        } else if (id == R.id.nav_account3) {
+            Intent i = new Intent(this, contact.class);
+            startActivity(i);
             //Dito yung feedbackactivity
 
         }
