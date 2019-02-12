@@ -35,7 +35,7 @@
         android:layout_below="@+id/listdata"
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/fishname"
-        android:src="@drawable/milkfish" />
+        android:src="@drawable/bangus" />
 
     <TextView
         android:id="@+id/description"

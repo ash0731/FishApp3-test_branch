@@ -28,7 +28,7 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="27dp"
             android:contentDescription="@string/fishname"
-            android:src="@drawable/milkfish" />
+            android:src="@drawable/bangus" />
     </RelativeLayout> <RelativeLayout
         android:id="@id/listviewdata"
         android:layout_width="match_parent"

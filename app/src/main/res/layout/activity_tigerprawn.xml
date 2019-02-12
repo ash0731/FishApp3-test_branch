@@ -32,7 +32,7 @@
         android:layout_below="@+id/listdata"
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/fishname"
-        android:src="@drawable/tiger_prawn" />
+        android:src="@drawable/prawn" />
 
     <TextView
         android:id="@+id/description"

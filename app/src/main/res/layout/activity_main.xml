@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    android:background="@drawable/wavebg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
 
     tools:context="com.cvsu.ash.rhea.fishapp.MainActivity"
     >
@@ -13,42 +14,56 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
 
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:scaleType="fitCenter"
-            android:src="@drawable/titlepage" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/titlepage" />
 
-        <Button
-            android:layout_width="180dp"
-            android:textColor="@android:color/white"
-            android:backgroundTint="#2196F3"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Discover Aquaculture"
-            android:onClick="Learn"/>
+                <Button
+                    android:drawableLeft="@drawable/round_info_white_18dp"
+                    android:layout_width="180dp"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="#2196F3"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Discover Aquaculture"
+                    android:onClick="Learn"/>
 
-        <Button
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
-            android:backgroundTint="#2196F3"
-            android:layout_gravity="center_horizontal"
-            android:text="Local Fish farms in Cavite"
-            android:onClick="Map"/>
+                <Button
+                    android:drawableLeft="@drawable/round_location_on_white_18dp"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="#2196F3"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Local Fish farms in Cavite"
+                    android:onClick="Map"/>
 
-        <Button
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/white"
-            android:backgroundTint="#2196F3"
-            android:layout_gravity="center_horizontal"
-            android:text="Exit"
-            android:onClick="clickExit"/>
+                <Button
+                    android:drawableLeft="@drawable/round_collections_white_18dp"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="#2196F3"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Gallery"
+                    /> <!--Please update this with android:onClick="gallery" -->
+
+                <Button
+                    android:drawableLeft="@drawable/round_exit_to_app_white_18dp"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="#2196F3"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Exit"
+                    android:onClick="clickExit"/>
         </LinearLayout>
         <android.support.design.widget.NavigationView
             android:id="@+id/nav_view"
@@ -57,4 +72,5 @@
             app:menu="@menu/navigation_menu"
             android:layout_gravity="start"></android.support.design.widget.NavigationView>
 </android.support.v4.widget.DrawerLayout>
+
 

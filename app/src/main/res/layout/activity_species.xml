@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wavebg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -20,6 +21,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="16sp"
+        android:drawableLeft="@drawable/bangusicon"
         android:text="Milkfish (Bangus)" />
 
     <Button
@@ -34,6 +36,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="16sp"
+        android:drawableLeft="@drawable/tilapiaicon"
         android:text="Tilapia" />
 
     <Button
@@ -48,6 +51,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="16sp"
+        android:drawableLeft="@drawable/crabicon"
         android:text="Mud Crab (Alimango)"/>
 
     <Button
@@ -62,6 +66,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="16sp"
+        android:drawableLeft="@drawable/prawnicon"
         android:text="Tiger Prawn (Sugpo)"/>
 
     <Button
@@ -76,5 +81,6 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="16sp"
+        android:drawableLeft="@drawable/musselicon"
         android:text="Green Mussel (Tahong)"/>
 </LinearLayout>

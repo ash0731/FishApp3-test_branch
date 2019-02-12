@@ -10,6 +10,9 @@ Here’s what you can do with ‘FishFarms in Cavite’ Application: \n \n
 •Find Local fish farms in Cavite (To protect fish farm owners’ privacy, each places in the map is an approximation.) \n \n
 •Get information about Local fish farms in Cavite. \n
 </string>
+    <string name="aboutus"><b>Jan Ashley B. Mayrina</b> (Developer) \n
+        <b>Rhea Jane S. Tardio</b> (Co-developer)
+    </string>
     <string name="descript"><b>Common Name: Milkfish \n
 Local name: Bangus, Awa \n
 Max Size: 180cm (Commonly 60-100cm) \n

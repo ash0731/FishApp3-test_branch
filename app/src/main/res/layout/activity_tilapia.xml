@@ -36,7 +36,7 @@
             android:layout_below="@+id/listdata"
             android:layout_centerHorizontal="true"
             android:contentDescription="@string/fishname"
-            android:src="@drawable/nile_tilapia" />
+            android:src="@drawable/tilapia" />
 
         <TextView
             android:id="@+id/description"

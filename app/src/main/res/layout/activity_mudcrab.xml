@@ -33,7 +33,7 @@
                 android:scaleType="fitXY"
                 android:layout_centerHorizontal="true"
                 android:contentDescription="@string/fishname"
-                android:src="@drawable/mudcrab2" />
+                android:src="@drawable/crab" />
 
             <TextView
                 android:id="@+id/description"
