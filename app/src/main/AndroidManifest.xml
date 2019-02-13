@@ -18,11 +18,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".contact"
-            android:label="Contact Information"
-            android:parentActivityName=".MainActivity">
+        <activity android:name=".photos"
+            android:label="Photos"
+            android:parentActivityName=".gallery"><intent-filter>
+            <action android:name="android.intent.action.photos" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
 
         </activity>
+
+
+        <activity
+            android:name=".gallery"
+            android:label="VSR Organic Farm"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".contact"
+            android:label="Contact Information"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".References"
             android:label="References"

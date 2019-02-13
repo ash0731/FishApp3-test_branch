@@ -46,14 +46,15 @@
                     android:onClick="Map"/>
 
                 <Button
-                    android:drawableLeft="@drawable/round_collections_white_18dp"
+                    android:drawableLeft="@drawable/vsricon"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:textColor="@android:color/white"
                     android:backgroundTint="#2196F3"
                     android:layout_gravity="center_horizontal"
-                    android:text="Gallery"
-                    /> <!--Please update this with android:onClick="gallery" -->
+                    android:text="FISHFARM Gallery"
+                    android:onClick="gallery"
+                    />
 
                 <Button
                     android:drawableLeft="@drawable/round_exit_to_app_white_18dp"

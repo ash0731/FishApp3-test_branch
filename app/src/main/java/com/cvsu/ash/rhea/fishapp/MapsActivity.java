@@ -198,8 +198,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private void addMarkersToMap(double lat, double lon) {
         ArrayList<LocationModel> list  = dbLoader.getFacilities();
-        int height = 200;
-        int width = 200;
+        int height = 170;
+        int width = 220;
         BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.mapmarker);
         Bitmap b=bitmapdraw.getBitmap();
         Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);

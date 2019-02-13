@@ -77,7 +77,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         startActivity(b);
     }
 
-
+    public void gallery(View view) {
+        Intent i = new Intent(this, gallery.class);
+        startActivity(i);
+    }
 
     //The lines after this are for ExitButton or Back Exit
     public void clickExit(View view){

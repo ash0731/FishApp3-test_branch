@@ -39,7 +39,7 @@ Typically lives up to 10 m depth and forms dense populations (up to 35000 indivi
     <string name="mudcrabdesc">The mud crab or mangrove crab, like the penaeid shrimp is also one of the species that may be harvested together with milkfish in brackish water ponds. However its culture as a crop in itself is fairly recent and probably dates back only to the 1960s. This was when bamboo fencing were used around a brackish water pond to prevent them from crawling out. Culture density is typically low (20,000 per ha or lower). Previously known only as Scylla serrata, four distinct species are now recognized but their nomenclature is still not quite settled.
 \n \n Feed used ranges from dead chickens from poultry houses to “trash fish” from capture fisheries or from brackish water ponds such as naturally occurring tilapia which is considered a pond pest. There is no trash fish as such in the Philippines since almost all species, big or small, are utilized as direct human food. </string>
     <string name="feeds">
-        In these tables are the categories and list of fish feeds and its given nutrients.
+        Floating pellets are usually recommended, as they remain on the surface until consumed. They are, however, more expensive. Pellets designed to sink are simpler to manufacture and are therefore cheaper. But they can get lost in the bottom mud of ponds. This is not a problem in shallow, artificial containments, though, as the fish can find pellets that have sunk to the tank floor.\n \n These are the common fish feeds: \n
     </string>
 
     <string name="tools1a">
@@ -166,4 +166,26 @@ Paddle wheels set in the ponds can remedy critical oxygen condition. These devic
 
     <string name="locator_features_unavailable">This device does not provide location services. Some features are unavailable.</string>
     <string name="newline" />
+    <string name="vsr">\n
+
+    The VSR Organic Farm is an agricultural business, an eco-farm located at Brgy. Bunga, Tanza, Cavite and founded by Victor Salgado Reyes, an Overseas Filipino Worker. He started culturing fish on 2008 with only one fish pond. On 2013, he founded the VSR Organic Farm which became open for public in 2017.
+The farm was built on his own land measuring up to 2.5 hectares. From having one fish pond, the farm has now fifteen (15) fish ponds, and start to add more business. The VSR Organic Farm is now accepting visitors and tourists to have leisure time in the farm. The farm can be used as event place for birthdays, reunion, outing and other events. They also have a vegetable plantation, plantation, swimming pools, cottages, restaurants and a quad bike for rent to enjoy touring around in the vast farm. The activities the farm offers are; fishing your own fish, picking your own vegetable in the plantation, biking and swimming in the pool area.
+The farm is very peaceful which makes you feel like you are in your home province (if you have one) and they offer their services for a cheap price. \n\n\n
+<b>Cultured Fish:</b> Red and Black Tilapia \n\n
+<b>Source of water:</b> Irrigation (from Water Dam)\n\n
+<b>Type of fish farm:</b> Pond Type (15) : 4000 sq , 3ft deep for small fish, 10 ft deep for big tilapia\n\n
+<b>Tools Used:</b> Fishing Rod (Bamboo stick /fish hook) for fishing.\n
+                     Nets are used for transferring fingerlings for breeding.\n\n
+<b>Fish Feeds:</b> They use natural/organic feeds.\n
+Asula (red/green lumot on pond)\n
+Duckweed\n
+Kangkong\n
+Malunggay\n
+Darak (Rice Bran)\n\n
+<u>Premira</u>: (powder type) mixture of all the feeds mentioned above.\n\n
+<b>Methods of Growing their Fish:</b>\n\n
+Fishes in the pond can be fed with commercial feeds, even though they already have natural feeds in the pond which are kangkong, and asula.\n
+They put stones around the area of the pond to avoid soil eruption.\n
+They clean the pond every harvest by draining the pond using their pump after transferring the fish to other pond.\n
+ </string>
 </resources>

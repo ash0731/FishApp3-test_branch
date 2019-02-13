@@ -113,7 +113,8 @@
                 android:layout_margin="2dp"
                 android:layout_marginTop="85dp"
                 android:autoLink="web"
-                android:text="m.me/PFOCavite \n\n"/>
+                android:text="m.me/PFOCavite \n\n"
+                android:textColorLink="@android:color/holo_blue_dark"/>
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -182,8 +183,9 @@
                 android:layout_centerHorizontal="true"
                 android:layout_margin="2dp"
                 android:layout_marginTop="85dp"
+                android:text="m.me/JanAshley.Mayrina"
                 android:autoLink="web"
-                android:text="m.me/JanAshley.Mayrina"/>
+                android:textColorLink="@android:color/holo_blue_dark"/>
 
             <TextView
                 android:id="@+id/textView11"
