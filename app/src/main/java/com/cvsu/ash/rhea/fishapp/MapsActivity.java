@@ -8,7 +8,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -34,6 +36,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
@@ -195,12 +198,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private void addMarkersToMap(double lat, double lon) {
         ArrayList<LocationModel> list  = dbLoader.getFacilities();
+        int height = 200;
+        int width = 200;
+        BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.mapmarker);
+        Bitmap b=bitmapdraw.getBitmap();
+        Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
+
+
         if (!GlobalVariables.gPin) {
             for (int ctr = 0; ctr < list.size(); ctr++) {
                 MarkerOptions markerOptions = new MarkerOptions()
                         .position(new LatLng(list.get(ctr).getLatitude(), list.get(ctr).getLongitude()))
                         .title(list.get(ctr).getTypeoOfFarm())
-                        .snippet(list.get(ctr).getAddress());
+                        .snippet(list.get(ctr).getAddress())
+                        .icon(BitmapDescriptorFactory.fromBitmap(smallMarker));
+
                 mMap.addMarker(markerOptions);
             }
         } else {
