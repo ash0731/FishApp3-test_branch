@@ -89,7 +89,7 @@
                 android:layout_marginTop="85dp"
                 android:autoLink="web"
                 android:textColorLink="@android:color/holo_blue_dark"
-                android:text="In assistance with Provincial Fisheries Office in Cavite (PFO - Cavite) \n \nFood and Agriculture Organization Website. \n http://www.fao.org\n\n National Oceanic and Atmospheric Administration\nhttps://www.noaa.gov/\n\nVictor Pellet Mill" />
+                android:text="In assistance with Provincial Fisheries Office in Cavite (PFO - Cavite) \n \nFood and Agriculture Organization Website. \n http://www.fao.org\n\n National Oceanic and Atmospheric Administration\nhttps://www.noaa.gov/\n\nVictor Pellet Mill\nhttp://wwww.victorpelletmill.com" />
 
         </LinearLayout>
     </ScrollView>

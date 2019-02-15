@@ -33,7 +33,7 @@ public class gallery extends AppCompatActivity {
 
     }
     private void onBtnClicked2() {
-        Intent intent = new Intent("android.intent.action.photos");
+        Intent intent = new Intent("android.intent.action.video");
         startActivity(intent);
     }
 

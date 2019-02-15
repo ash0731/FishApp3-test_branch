@@ -63,7 +63,7 @@
         android:textColor="@android:color/white"
         android:backgroundTint="#2196F3"
         android:layout_gravity="center_horizontal"
-        android:text="Videos"
+        android:text="Video"
         />
     </LinearLayout>
 
